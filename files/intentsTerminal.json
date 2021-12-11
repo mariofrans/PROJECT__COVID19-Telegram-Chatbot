@@ -1,0 +1,35 @@
+{"intents": 
+    [
+        {"tag": "greetings",
+            "patterns": ["hello", "hey", "hi", "greetings", "what's up?", "how is it going?"],
+            "responses": ["Hello", "Hey!", "What can i do for you?"]
+        },
+    
+        {"tag": "goodbye",
+            "patterns": ["goodbye", "see you later", "i'm leaving", "bye", "have a nice day", "i gotta go"],
+            "responses": ["Bye", "Have a nice day", "Hope to see you soon"]
+        },
+    
+        {"tag": "name",
+            "patterns": ["what is your name?", "who are you?", "what should i call you?", "can you tell me your name?"],
+            "responses": ["I am Bot", "You can call me Bot", "I am an Artificial Intelligence Bot made by Christensen Mario Frans"]
+        },
+
+        {"tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+        {"tag": "symptoms",
+            "patterns": ["symptoms", "symptom", "coronavirus symptoms", "covid19 symptoms", "virus symptoms", "what are the symptoms of coronavirus", "what are the symptoms of covid19"],
+            "responses": 
+            ["\nPeople with COVID-19 have had a wide range of symptoms reported; ranging from mild symptoms to severe illness. \nSymptoms may appear 2-14 days after exposure to the virus. Anyone can have mild to severe symptoms. \nPeople with these Symptoms may have COVID-19: \n- Fever or Chills \n- Cough \n- Shortness of Breath or Difficulty Breathing \n- Fatigue \n- Muscle or Body Aches \n- Headache \n- Loss of Sense of Taste/Smell \n- Sore Throat \n- Congestion or Runny Nose \n- Nausea or Vomiting \n- Diarrhea"]
+        },
+
+        {"tag": "introduction",
+            "patterns": ["what is coronavirus", "what is covid19", "introduction to coronavirus", "introduction to covid19"],
+            "responses": 
+            ["\nCOVID-19 is a respiratory disease caused by SARS-CoV-2, a new coronavirus discovered in 2019. The \nvirus is thought to spread mainly from person to person through respiratory droplets produced when \nan infected person coughs, sneezes, or talks. Some people who are infected may not have symptoms. \nFor people who have symptoms, illness can range from mild to severe. Adults 65 years and older \nand people of any age with underlying medical conditions are at higher risk for severe illness"]
+        }
+    ]
+    }
